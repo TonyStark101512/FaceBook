@@ -1,0 +1,77 @@
+/* Manage the Header Border  */
+.header {
+    position: absolute;
+    border: 1px solid;
+    width: 1365px;
+    margin-left: -9px;
+    margin-top: -9px;
+    height: 55px;
+    opacity: 0.2;
+    background: white;
+}
+
+/* Manage the Facebook-logo in Header Content  */
+#Facebook-logo {
+    margin-top: -4px;
+}
+
+/* Manage the Search-BAR  */
+#Search-BAR {
+    position: absolute;
+    margin-top: 1px;
+    height: 31px;
+    width: 432px;
+    margin-left: 21%;
+    border-radius: 57px;
+    outline: none;
+    background: rgb(240, 240, 240);
+    border-top: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(240, 240, 240);
+    border-left:1px solid rgb(240, 240, 240) ;
+    border-right:1px solid rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+/* Manage the Search-BAR Hover */
+#Search-BAR:hover{
+    background: rgb(227, 227, 227);
+}
+
+/* Manage the Search-BAR  */
+#Search-BAR::placeholder {
+    margin-left: 32px;
+    position: absolute;
+    margin-top: 7px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+/* Manage the Search-icon  */
+#Search-icon{
+    position: absolute;
+    margin-left: 298px;
+    z-index: 100;
+    margin-top: 11px;
+    width: 17px;
+    opacity: 0.6;
+}
+
+/* Manage the combine-notification  */
+
+
+/* Manage the Main-Body  */
+.MainBody{
+    position: absolute;
+    border: 1px solid;
+    margin-top: 3px;
+    width: 1365px;
+    margin-left: -9px;
+    height: 567px;
+    opacity: 0.2;
+    background: rgb(174, 174, 174);
+}
+
+/* Manage the side-Bar  */
+#side-Bar{
+
+}
